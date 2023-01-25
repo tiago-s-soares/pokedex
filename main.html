@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Prosto+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <section id="navbar">
+        <nav id="main-nav">
+            <h1>Pokédex</h1>
+        </nav>
+    </section>
+
+    <section id="pokemon-display">
+        <div id="left-container">
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Pokémon</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Insert values with JS -->
+                </tbody>
+            </table>
+            <div class="page-buttons">
+                <button class="page-button">Previous</button>
+                <button class="page-button hover-pointer">Next</button>
+            </div>
+        </div>
+
+        <div id="right-container">
+            <h2 id="pokemon-name">Select your Pokémon!</h2>
+
+            <img id="pokemon-art"
+                alt="" src="./empty.png">
+            <table class="content-table">
+                <thead>
+                    <tr class="pokemon-info"></tr>
+                </thead>
+                <tbody id="pokemon-info-body">
+                    <!-- Insert values with JS -->
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
